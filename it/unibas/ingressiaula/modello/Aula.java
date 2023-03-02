@@ -35,6 +35,10 @@ public class Aula implements Comparable<Aula> {
     public boolean aggiungiAccesso(Accesso accesso) {
         return listaAccessi.add(accesso);
     }
+
+    public String prova(){
+        return "Prova git";
+    }
     
 
     @Override
